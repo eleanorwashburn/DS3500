@@ -1,0 +1,9 @@
+Function              Calls     TotSec   Sec/Call
+main.<locals>.<lambda> 238010   2.802835   0.000012
+add_random_ta         12033   0.144857   0.000012
+remove_random_ta      11861   0.115563   0.000010
+shift_ta              11703   0.128279   0.000011
+swapper               12004   0.159257   0.000013
+Evo.evolve                1 291.821497 291.821497
+
+Total Runtime: 295.172288 seconds

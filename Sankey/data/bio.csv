@@ -1,0 +1,10 @@
+cancer,gene,evidence
+Stomach,Gx,1
+Stomach,Gy,1
+Stomach,Gz,1
+Lung,Gx,1
+Lung,Gz,2
+Brain,Gx,2
+Brain,Gy,0.5
+Brain,Gz,1
+Brain,Gw, 5

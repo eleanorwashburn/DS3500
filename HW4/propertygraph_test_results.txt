@@ -1,0 +1,35 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.12.4, pytest-7.4.4, pluggy-1.0.0 -- /opt/anaconda3/envs/DS/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/elliewashburn/Documents/DS3500/HW4
+plugins: cov-4.1.0
+collecting ... collected 17 items
+
+test_propertygraph.py::test_node_init PASSED                             [  5%]
+test_propertygraph.py::test_node_getitem PASSED                          [ 11%]
+test_propertygraph.py::test_node_setitem PASSED                          [ 17%]
+test_propertygraph.py::test_node_eq PASSED                               [ 23%]
+test_propertygraph.py::test_node_hash PASSED                             [ 29%]
+test_propertygraph.py::test_node_repr PASSED                             [ 35%]
+test_propertygraph.py::test_relationship_init PASSED                     [ 41%]
+test_propertygraph.py::test_relationship_getitem PASSED                  [ 47%]
+test_propertygraph.py::test_relationship_setitem PASSED                  [ 52%]
+test_propertygraph.py::test_relationship_repr PASSED                     [ 58%]
+test_propertygraph.py::test_propertygraph_init PASSED                    [ 64%]
+test_propertygraph.py::test_propertygraph_add_node PASSED                [ 70%]
+test_propertygraph.py::test_propertygraph_add_relationship PASSED        [ 76%]
+test_propertygraph.py::test_propertygraph_get_nodes PASSED               [ 82%]
+test_propertygraph.py::test_propertygraph_adjacent PASSED                [ 88%]
+test_propertygraph.py::test_propertygraph_subgraph PASSED                [ 94%]
+test_propertygraph.py::test_propertygraph_repr PASSED                    [100%]
+
+---------- coverage: platform darwin, python 3.12.4-final-0 ----------
+Name                    Stmts   Miss  Cover   Missing
+-----------------------------------------------------
+propertygraph.py           75      2    97%   37, 114
+test_propertygraph.py     107      0   100%
+-----------------------------------------------------
+TOTAL                     182      2    99%
+
+
+============================== 17 passed in 0.08s ==============================
